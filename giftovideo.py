@@ -5,6 +5,7 @@ import questionary
 from contextlib import contextmanager
 from moviepy import VideoFileClip
 
+
 # Hiding output via context.
 @contextmanager
 def suppress_stdout():

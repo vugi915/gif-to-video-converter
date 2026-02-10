@@ -5,6 +5,7 @@
 ```bash
 sudo apt install python3 -y
 sudo apt install python3-pip -y
+sudo apt install python3.12-venv -y
 ```
 
 ### 2. Создайте среду venv в вашем каталоге.

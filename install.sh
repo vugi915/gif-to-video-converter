@@ -4,7 +4,7 @@ pip3 install --upgrade moviepy
 pip3 install --upgrade questionary
 pip3 install --upgrade pyinstaller
 # Create bin file.
-pyinstaller --onefile giftovideo.py
+pyinstaller --onefile --copy-metadata imageio giftovideo.py
 # Move bin file.
 mv dist/giftovideo .
 # Delete build files.
